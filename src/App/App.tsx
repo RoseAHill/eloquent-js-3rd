@@ -1,15 +1,17 @@
-import React from 'react';
-import { useState } from 'react';
+import React from 'react'
+import { Switch, Route } from 'react-router-dom'
+import Corners from './components/Corners/Corners'
 import './App.css'
-import Background from './components/Background/Background';
 
 const App = () => {
-  const [leftSelected, setLeftSelected] = useState(true)
+
+  const navPages = [
+    {  }
+  ]
 
   return (
     <div className="App">
-      <Background triLeft={leftSelected} />
-      Eloquent JS
+      <Corners />
     </div>
   );
 }
