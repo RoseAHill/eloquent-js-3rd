@@ -1,0 +1,40 @@
+nav {
+  color: var(--elo-yellow);
+  position: absolute;
+  right: 0;
+  align-items: end;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  width: fit-content;
+  height: fit-content;
+  background-color: var(--elo-black);
+}
+
+nav a {
+  font-size: 3rem;
+  padding: 0.5rem 2rem;
+  border-right: var(--elo-link-underline) var(--elo-yellow);
+  margin: 1rem 0;
+  color: var(--elo-black);
+  background-color: var(--elo-yellow);
+}
+
+nav a:hover {
+  border-right: var(--elo-link-underline) var(--elo-orange);
+}
+
+.active-nav-link {
+  animation-duration: 300ms;
+  animation-name: shadow-grow;
+  box-shadow: 0 6px 0 var(--elo-orange);
+}
+
+@keyframes shadow-grow {
+  from {
+    box-shadow: 6px 10px 0 -8px var(--elo-orange);
+  }
+
+  to {
+    box-shadow: 0 6px 0 var(--elo-orange);
+  }
+}

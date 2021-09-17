@@ -46,5 +46,5 @@
 .important-links {
   text-decoration: none;
   font-size: 2.5rem;
-  border-bottom: 4px solid var(--elo-orange);
+  border-bottom: var(--elo-link-underline) var(--elo-orange);
 }

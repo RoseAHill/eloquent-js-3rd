@@ -11,6 +11,8 @@
   --elo-yellow: #f8d410;
   --elo-black: #191611;
   --elo-orange: #f9653f;
+  /* Style */
+  --elo-link-underline: 6px solid;
 }
 
 body {
@@ -32,6 +34,7 @@ a {
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 .flex-col {

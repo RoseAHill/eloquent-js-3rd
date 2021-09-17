@@ -2,8 +2,6 @@ import React from 'react'
 import './Corners.css'
 
 const Corners = () => {
-  
-  
 
   return (
     <div className="corners">
