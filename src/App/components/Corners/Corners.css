@@ -1,5 +1,5 @@
 .title-section {
-  position: absolute;
+  position: relative;
   color: var(--elo-black);
   height: 25rem;
   width: 75rem;

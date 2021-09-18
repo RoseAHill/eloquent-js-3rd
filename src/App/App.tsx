@@ -2,6 +2,7 @@ import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import Corners from './components/Corners/Corners'
 import Nav from './components/Nav/Nav'
+import Landing from './pages/Landing/Landing'
 import './App.css'
 
 const App = () => {
@@ -15,8 +16,13 @@ const App = () => {
 
   return (
     <div className="App">
-      <Corners />
       <Nav navLinks={navPages} />
+      <Corners />
+      <Switch>
+        <Route exact path="/">
+          <Landing />
+        </Route>
+      </Switch>
     </div>
   );
 }

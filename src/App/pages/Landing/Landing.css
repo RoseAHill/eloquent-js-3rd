@@ -1,0 +1,22 @@
+.content figure {
+  margin: 10vh auto;
+}
+
+figure blockquote {
+  margin: 2rem 2rem 0;
+  padding: 1rem;
+  font-size: 3rem;
+  font-family: var(--elo-serif);
+  font-weight: 700;
+  color: var(--elo-black);
+  background-color: var(--elo-yellow);
+  border: 10px solid var(--elo-black);
+  box-shadow: 28px 26px 0 -22px var(--elo-yellow), -28px -26px 0 -22px var(--elo-yellow);
+}
+
+figure figcaption {
+  font-family: var(--elo-serif);
+  font-size: 2rem;
+  text-align: right;
+  padding: 1rem 4rem;
+}

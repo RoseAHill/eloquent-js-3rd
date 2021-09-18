@@ -19,7 +19,7 @@ const Nav: React.FC<Props> = ({ navLinks }) => {
   })
   
   return (
-    <nav className="flex-col">
+    <nav className="flex-adapt">
       {navLinkComponents}
     </nav>
   )

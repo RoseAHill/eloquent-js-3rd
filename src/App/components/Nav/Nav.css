@@ -1,13 +1,13 @@
 nav {
   color: var(--elo-yellow);
-  position: absolute;
   right: 0;
   align-items: end;
   justify-content: space-between;
-  padding-bottom: 8px;
   width: fit-content;
   height: fit-content;
-  background-color: var(--elo-black);
+  background-color: var(--elo-yellow);
+  z-index: 10;
+  width: 100%;
 }
 
 nav a {
@@ -36,5 +36,13 @@ nav a:hover {
 
   to {
     box-shadow: 0 6px 0 var(--elo-orange);
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  nav {
+    position: absolute;
+    width: fit-content;
+    background-color: transparent;
   }
 }
